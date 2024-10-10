@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☰"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOMAQUEST"
+            android:textColor="#FFA500"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/student_img"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHAT TO DO INCASE OF FIRE EMERGENCIES"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFA500"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <FrameLayout
+        android:layout_width="372dp"
+        android:layout_height="179dp"
+        android:layout_margin="16dp"
+        android:background="#FFC329">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:layout_gravity="bottom|start"
+            android:layout_margin="16dp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations 🎉 for finishing the video. Let's try the Exercises!"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/fireButton1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FCE0D7"
+
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:textSize="12sp"
+            android:text="EXERCISE 1"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F0FCA2"
+
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="EXERCISE 2"
+            android:textSize="12sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFC79C"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:textSize="12sp"
+            android:text="EXERCISE 3"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
